@@ -102,3 +102,16 @@ const sayHello2 = (name = "BOUBOU") => {
 };
 
 console.log(sayHello2("Lisette"));
+
+// Différence entre ++i et i++
+// ++i
+let i = 5;
+let result1 = ++i; // i est incrémenté à 6 avant d'être utilisé
+console.log(i); // 6
+console.log(result1); // 6
+
+// i++
+let j = 5;
+let result2 = j++; // j est utilisé (5) puis incrémenté à 6
+console.log(j); // 6
+console.log(result2); // 5
